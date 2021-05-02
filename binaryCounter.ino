@@ -1,3 +1,12 @@
+/*
+Project Name: 4-bit Binary counter using Arduino UNO
+Created by: Dhanush H V
+Teammate Name: Chethan P
+Hardware required:
+1) Monochromatic LED x4 (each led indicates each bit)
+2) Arduino UNO x1, 220 Ohm or 320 Ohm Resistors x4, connecting wires, power cable for Arduino UNO
+*/
+
 const int led[4] = {2, 3, 4, 5};
 int i, j;
 void setup()
